@@ -140,12 +140,10 @@
                                 <hr>
                                 <p class="card-text">
                                     <i class="fa-solid fa-check-to-slot" style="color: #ffffff; margin-right: 10px"></i>
-                                    Available seats : {{ $item->stock}}</p>
-<a style="float:right" href="#"
-class="btn btn-outline btn-book">Select Ticket</a>
-<p style=
-"color: #D6B56E;
-padding-top: 10px;">IDR {{ $item->price }}
+                                    Available seats : {{ $item->stock}}
+                                </p>
+                                <a style="float:right" href="#" class="btn btn-outline btn-book">Select Ticket</a>
+                                <p style="color: #D6B56E;padding-top: 10px;">IDR {{ $item->price }}
                                 </p>
                             </div>
                         </div>
@@ -156,4 +154,5 @@ padding-top: 10px;">IDR {{ $item->price }}
             </div>
         </div>
     </div>
-    @endsection
+</div>
+@endsection
